@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * ============================================
  * ANNUAIRE-PISCINISTE.PRO - CONFIGURATION
@@ -8,9 +8,9 @@
 define('SITE_NAME', 'trouver-devis-piscine.fr');
 define('SITE_DOMAIN', 'trouver-devis-piscine.fr');
 define('SITE_URL', 'https://trouver-devis-piscine.fr');
-define('SITE_EMAIL', 'admin@miraubolant.com');
+define('SITE_EMAIL', 'contact@trouver-devis-piscine.fr');
 define('SITE_TAGLINE', "Pisciniste et Construction Partout en France");
-define('SITE_DESCRIPTION', "Trouvez un pisciniste professionnel pour la construction ou la rÃ©novation de votre piscine.");
+define('SITE_DESCRIPTION', "Trouvez un pisciniste professionnel pour la construction ou la rénovation de votre piscine.");
 
 define('SITE_LOGO_TEXT', 'TROUVER-DEVIS-PISCINE');
 define('SITE_LOGO_TLD', '.PRO');
@@ -36,112 +36,112 @@ define('DATA_PATH', __DIR__ . '/data/');
 define('REGIONS_FILE', DATA_PATH . 'regions/regions.json');
 
 define('MODELES', [
-    ['slug' => 'piscine-coque', 'nom' => 'Piscine Coque', 'emoji' => "ðŸŠ", 'vud_cat' => '44'],
-    ['slug' => 'piscine-beton', 'nom' => 'Piscine BÃ©ton', 'emoji' => "ðŸ–ï¸", 'vud_cat' => '44'],
-    ['slug' => 'entretien-piscine', 'nom' => 'Entretien & RÃ©novation', 'emoji' => "ðŸ§¹", 'vud_cat' => '44'],
-    ['slug' => 'piscine-bois', 'nom' => 'Piscine Bois', 'emoji' => "ðŸªµ", 'vud_cat' => '44'],
-    ['slug' => 'piscine-hors-sol', 'nom' => 'Piscine Hors Sol', 'emoji' => "ðŸªœ", 'vud_cat' => '44'],
-    ['slug' => 'piscine-enterree', 'nom' => 'Piscine EnterrÃ©e', 'emoji' => "ðŸ•³ï¸", 'vud_cat' => '44'],
-    ['slug' => 'piscine-semi-enterree', 'nom' => 'Piscine Semi-EnterrÃ©e', 'emoji' => "ðŸ§±", 'vud_cat' => '44'],
-    ['slug' => 'piscine-interieure', 'nom' => 'Piscine IntÃ©rieure', 'emoji' => "ðŸ ", 'vud_cat' => '44'],
-    ['slug' => 'piscine-debordement', 'nom' => 'Piscine Ã  DÃ©bordement', 'emoji' => "ðŸŒŠ", 'vud_cat' => '44'],
-    ['slug' => 'piscine-miroir', 'nom' => 'Piscine Miroir', 'emoji' => "ðŸªž", 'vud_cat' => '44'],
-    ['slug' => 'filtration-piscine', 'nom' => 'SystÃ¨me de Filtration', 'emoji' => "ðŸ’§", 'vud_cat' => '44'],
-    ['slug' => 'pompe-chaleur-piscine', 'nom' => 'Pompe Ã  Chaleur', 'emoji' => "ðŸŒ¡ï¸", 'vud_cat' => '44'],
-    ['slug' => 'volet-roulant-piscine', 'nom' => 'Volet Roulant', 'emoji' => "ðŸ›¡ï¸", 'vud_cat' => '44'],
-    ['slug' => 'bache-piscine', 'nom' => 'BÃ¢che de Piscine', 'emoji' => "ðŸŽª", 'vud_cat' => '44'],
-    ['slug' => 'abri-piscine', 'nom' => 'Abri de Piscine', 'emoji' => "ðŸ›–", 'vud_cat' => '44'],
-    ['slug' => 'domotique-piscine', 'nom' => 'Domotique Piscine', 'emoji' => "ðŸ“±", 'vud_cat' => '44'],
-    ['slug' => 'liner-piscine', 'nom' => 'Pose de Liner', 'emoji' => "ðŸ“", 'vud_cat' => '44'],
-    ['slug' => 'carrelage-piscine', 'nom' => 'Carrelage Piscine', 'emoji' => "ðŸ§Š", 'vud_cat' => '44'],
-    ['slug' => 'enduit-piscine', 'nom' => 'Enduit Piscine', 'emoji' => "ðŸ–Œï¸", 'vud_cat' => '44'],
-    ['slug' => 'nettoyage-piscine', 'nom' => 'Nettoyage Piscine', 'emoji' => "ðŸ¤–", 'vud_cat' => '44'],
-    ['slug' => 'hivernage-piscine', 'nom' => 'Hivernage', 'emoji' => "â„ï¸", 'vud_cat' => '44'],
-    ['slug' => 'remise-en-route-piscine', 'nom' => 'Remise en Route', 'emoji' => "â˜€ï¸", 'vud_cat' => '44'],
-    ['slug' => 'recherche-fuite-piscine', 'nom' => 'Recherche de Fuite', 'emoji' => "ðŸ”", 'vud_cat' => '44'],
-    ['slug' => 'traitement-eau', 'nom' => 'Traitement de l\'Eau', 'emoji' => "ðŸ§ª", 'vud_cat' => '44'],
-    ['slug' => 'piscine-naturelle', 'nom' => 'Piscine Naturelle', 'emoji' => "ðŸŒ¿", 'vud_cat' => '44'],
-    ['slug' => 'spa-jacuzzi', 'nom' => 'Spa & Jacuzzi', 'emoji' => "ðŸ›", 'vud_cat' => '44'],
-    ['slug' => 'couloir-nage', 'nom' => 'Couloir de Nage', 'emoji' => "ðŸŠâ€â™‚ï¸", 'vud_cat' => '44'],
-    ['slug' => 'piscine-kit', 'nom' => 'Piscine en Kit', 'emoji' => "ðŸ“¦", 'vud_cat' => '44'],
-    ['slug' => 'plage-piscine', 'nom' => 'Plage de Piscine', 'emoji' => "ðŸŒ´", 'vud_cat' => '44'],
-    ['slug' => 'renovation-piscine', 'nom' => 'RÃ©novation ComplÃ¨te', 'emoji' => "âœ¨", 'vud_cat' => '44'],
+    ['slug' => 'piscine-coque', 'nom' => 'Piscine Coque', 'emoji' => "🏊", 'vud_cat' => '44'],
+    ['slug' => 'piscine-beton', 'nom' => 'Piscine Béton', 'emoji' => "🏖️", 'vud_cat' => '44'],
+    ['slug' => 'entretien-piscine', 'nom' => 'Entretien & Rénovation', 'emoji' => "🧹", 'vud_cat' => '44'],
+    ['slug' => 'piscine-bois', 'nom' => 'Piscine Bois', 'emoji' => "🪵", 'vud_cat' => '44'],
+    ['slug' => 'piscine-hors-sol', 'nom' => 'Piscine Hors Sol', 'emoji' => "🪜", 'vud_cat' => '44'],
+    ['slug' => 'piscine-enterree', 'nom' => 'Piscine Enterrée', 'emoji' => "🕳️", 'vud_cat' => '44'],
+    ['slug' => 'piscine-semi-enterree', 'nom' => 'Piscine Semi-Enterrée', 'emoji' => "🧱", 'vud_cat' => '44'],
+    ['slug' => 'piscine-interieure', 'nom' => 'Piscine Intérieure', 'emoji' => "🏠", 'vud_cat' => '44'],
+    ['slug' => 'piscine-debordement', 'nom' => 'Piscine à Débordement', 'emoji' => "🌊", 'vud_cat' => '44'],
+    ['slug' => 'piscine-miroir', 'nom' => 'Piscine Miroir', 'emoji' => "🪞", 'vud_cat' => '44'],
+    ['slug' => 'filtration-piscine', 'nom' => 'Système de Filtration', 'emoji' => "💧", 'vud_cat' => '44'],
+    ['slug' => 'pompe-chaleur-piscine', 'nom' => 'Pompe à Chaleur', 'emoji' => "🌡️", 'vud_cat' => '44'],
+    ['slug' => 'volet-roulant-piscine', 'nom' => 'Volet Roulant', 'emoji' => "🛡️", 'vud_cat' => '44'],
+    ['slug' => 'bache-piscine', 'nom' => 'Bâche de Piscine', 'emoji' => "🎪", 'vud_cat' => '44'],
+    ['slug' => 'abri-piscine', 'nom' => 'Abri de Piscine', 'emoji' => "🛖", 'vud_cat' => '44'],
+    ['slug' => 'domotique-piscine', 'nom' => 'Domotique Piscine', 'emoji' => "📱", 'vud_cat' => '44'],
+    ['slug' => 'liner-piscine', 'nom' => 'Pose de Liner', 'emoji' => "📏", 'vud_cat' => '44'],
+    ['slug' => 'carrelage-piscine', 'nom' => 'Carrelage Piscine', 'emoji' => "🧊", 'vud_cat' => '44'],
+    ['slug' => 'enduit-piscine', 'nom' => 'Enduit Piscine', 'emoji' => "🖌️", 'vud_cat' => '44'],
+    ['slug' => 'nettoyage-piscine', 'nom' => 'Nettoyage Piscine', 'emoji' => "🤖", 'vud_cat' => '44'],
+    ['slug' => 'hivernage-piscine', 'nom' => 'Hivernage', 'emoji' => "❄️", 'vud_cat' => '44'],
+    ['slug' => 'remise-en-route-piscine', 'nom' => 'Remise en Route', 'emoji' => "☀️", 'vud_cat' => '44'],
+    ['slug' => 'recherche-fuite-piscine', 'nom' => 'Recherche de Fuite', 'emoji' => "🔍", 'vud_cat' => '44'],
+    ['slug' => 'traitement-eau', 'nom' => 'Traitement de l\'Eau', 'emoji' => "🧪", 'vud_cat' => '44'],
+    ['slug' => 'piscine-naturelle', 'nom' => 'Piscine Naturelle', 'emoji' => "🌿", 'vud_cat' => '44'],
+    ['slug' => 'spa-jacuzzi', 'nom' => 'Spa & Jacuzzi', 'emoji' => "🛁", 'vud_cat' => '44'],
+    ['slug' => 'couloir-nage', 'nom' => 'Couloir de Nage', 'emoji' => "🏊‍♂️", 'vud_cat' => '44'],
+    ['slug' => 'piscine-kit', 'nom' => 'Piscine en Kit', 'emoji' => "📦", 'vud_cat' => '44'],
+    ['slug' => 'plage-piscine', 'nom' => 'Plage de Piscine', 'emoji' => "🌴", 'vud_cat' => '44'],
+    ['slug' => 'renovation-piscine', 'nom' => 'Rénovation Complète', 'emoji' => "✨", 'vud_cat' => '44'],
 ]);
 
 define('STYLES', [
-    ['slug' => 'piscine-coque', 'nom' => 'Piscine Coque', 'emoji' => "ðŸŠ", 'desc' => 'Installation rapide, formes variÃ©es'],
-    ['slug' => 'piscine-beton', 'nom' => 'Piscine BÃ©ton', 'emoji' => "ðŸ–ï¸", 'desc' => 'Sur mesure et trÃ¨s rÃ©sistant'],
-    ['slug' => 'entretien-piscine', 'nom' => 'Entretien & RÃ©novation', 'emoji' => "ðŸ§¹", 'desc' => 'Maintenance rÃ©guliÃ¨re et ponctuelle'],
-    ['slug' => 'piscine-bois', 'nom' => 'Piscine Bois', 'emoji' => "ðŸªµ", 'desc' => 'Aspect naturel et chaleureux'],
-    ['slug' => 'piscine-hors-sol', 'nom' => 'Piscine Hors Sol', 'emoji' => "ðŸªœ", 'desc' => 'Sans terrassement, montage simple'],
-    ['slug' => 'piscine-enterree', 'nom' => 'Piscine EnterrÃ©e', 'emoji' => "ðŸ•³ï¸", 'desc' => 'Bassin classique intÃ©grÃ© au sol'],
-    ['slug' => 'piscine-semi-enterree', 'nom' => 'Piscine Semi-EnterrÃ©e', 'emoji' => "ðŸ§±", 'desc' => 'IdÃ©ale pour les terrains en pente'],
-    ['slug' => 'piscine-interieure', 'nom' => 'Piscine IntÃ©rieure', 'emoji' => "ðŸ ", 'desc' => 'Baignade toute l\'annÃ©e'],
-    ['slug' => 'piscine-debordement', 'nom' => 'Piscine Ã  DÃ©bordement', 'emoji' => "ðŸŒŠ", 'desc' => 'Effet visuel spectaculaire'],
-    ['slug' => 'piscine-miroir', 'nom' => 'Piscine Miroir', 'emoji' => "ðŸªž", 'desc' => 'L\'eau au niveau des margelles'],
-    ['slug' => 'filtration-piscine', 'nom' => 'SystÃ¨me de Filtration', 'emoji' => "ðŸ’§", 'desc' => 'Pompe, filtre Ã  sable ou cartouche'],
-    ['slug' => 'pompe-chaleur-piscine', 'nom' => 'Pompe Ã  Chaleur', 'emoji' => "ðŸŒ¡ï¸", 'desc' => 'Chauffage de l\'eau Ã©conomique'],
-    ['slug' => 'volet-roulant-piscine', 'nom' => 'Volet Roulant', 'emoji' => "ðŸ›¡ï¸", 'desc' => 'SÃ©curitÃ© et maintien de la tempÃ©rature'],
-    ['slug' => 'bache-piscine', 'nom' => 'BÃ¢che de Piscine', 'emoji' => "ðŸŽª", 'desc' => 'Couverture d\'Ã©tÃ© ou d\'hiver'],
-    ['slug' => 'abri-piscine', 'nom' => 'Abri de Piscine', 'emoji' => "ðŸ›–", 'desc' => 'Protection et chauffage naturel'],
-    ['slug' => 'domotique-piscine', 'nom' => 'Domotique Piscine', 'emoji' => "ðŸ“±", 'desc' => 'ContrÃ´le Ã  distance (pompe, Ã©clairage)'],
-    ['slug' => 'liner-piscine', 'nom' => 'Pose de Liner', 'emoji' => "ðŸ“", 'desc' => 'RevÃªtement Ã©tanche PVC'],
-    ['slug' => 'carrelage-piscine', 'nom' => 'Carrelage Piscine', 'emoji' => "ðŸ§Š", 'desc' => 'RevÃªtement durable et luxueux'],
-    ['slug' => 'enduit-piscine', 'nom' => 'Enduit Piscine', 'emoji' => "ðŸ–Œï¸", 'desc' => 'Finition pour piscine bÃ©ton'],
-    ['slug' => 'nettoyage-piscine', 'nom' => 'Nettoyage Piscine', 'emoji' => "ðŸ¤–", 'desc' => 'Robots et nettoyage manuel'],
-    ['slug' => 'hivernage-piscine', 'nom' => 'Hivernage', 'emoji' => "â„ï¸", 'desc' => 'Mise au repos du bassin'],
-    ['slug' => 'remise-en-route-piscine', 'nom' => 'Remise en Route', 'emoji' => "â˜€ï¸", 'desc' => 'PrÃ©paration pour la saison estivale'],
-    ['slug' => 'recherche-fuite-piscine', 'nom' => 'Recherche de Fuite', 'emoji' => "ðŸ”", 'desc' => 'DÃ©tection prÃ©cise sans casse'],
-    ['slug' => 'traitement-eau', 'nom' => 'Traitement de l\'Eau', 'emoji' => "ðŸ§ª", 'desc' => 'Chlore, brome, sel, UV'],
-    ['slug' => 'piscine-naturelle', 'nom' => 'Piscine Naturelle', 'emoji' => "ðŸŒ¿", 'desc' => 'Filtration par les plantes'],
-    ['slug' => 'spa-jacuzzi', 'nom' => 'Spa & Jacuzzi', 'emoji' => "ðŸ›", 'desc' => 'Bassin Ã  remous relaxant'],
-    ['slug' => 'couloir-nage', 'nom' => 'Couloir de Nage', 'emoji' => "ðŸŠâ€â™‚ï¸", 'desc' => 'Bassin long et Ã©troit pour sportifs'],
-    ['slug' => 'piscine-kit', 'nom' => 'Piscine en Kit', 'emoji' => "ðŸ“¦", 'desc' => 'Montage par le client ou assistÃ©'],
-    ['slug' => 'plage-piscine', 'nom' => 'Plage de Piscine', 'emoji' => "ðŸŒ´", 'desc' => 'AmÃ©nagement autour du bassin'],
-    ['slug' => 'renovation-piscine', 'nom' => 'RÃ©novation ComplÃ¨te', 'emoji' => "âœ¨", 'desc' => 'Refonte esthÃ©tique et technique'],
+    ['slug' => 'piscine-coque', 'nom' => 'Piscine Coque', 'emoji' => "🏊", 'desc' => 'Installation rapide, formes variées'],
+    ['slug' => 'piscine-beton', 'nom' => 'Piscine Béton', 'emoji' => "🏖️", 'desc' => 'Sur mesure et très résistant'],
+    ['slug' => 'entretien-piscine', 'nom' => 'Entretien & Rénovation', 'emoji' => "🧹", 'desc' => 'Maintenance régulière et ponctuelle'],
+    ['slug' => 'piscine-bois', 'nom' => 'Piscine Bois', 'emoji' => "🪵", 'desc' => 'Aspect naturel et chaleureux'],
+    ['slug' => 'piscine-hors-sol', 'nom' => 'Piscine Hors Sol', 'emoji' => "🪜", 'desc' => 'Sans terrassement, montage simple'],
+    ['slug' => 'piscine-enterree', 'nom' => 'Piscine Enterrée', 'emoji' => "🕳️", 'desc' => 'Bassin classique intégré au sol'],
+    ['slug' => 'piscine-semi-enterree', 'nom' => 'Piscine Semi-Enterrée', 'emoji' => "🧱", 'desc' => 'Idéale pour les terrains en pente'],
+    ['slug' => 'piscine-interieure', 'nom' => 'Piscine Intérieure', 'emoji' => "🏠", 'desc' => 'Baignade toute l\'année'],
+    ['slug' => 'piscine-debordement', 'nom' => 'Piscine à Débordement', 'emoji' => "🌊", 'desc' => 'Effet visuel spectaculaire'],
+    ['slug' => 'piscine-miroir', 'nom' => 'Piscine Miroir', 'emoji' => "🪞", 'desc' => 'L\'eau au niveau des margelles'],
+    ['slug' => 'filtration-piscine', 'nom' => 'Système de Filtration', 'emoji' => "💧", 'desc' => 'Pompe, filtre à sable ou cartouche'],
+    ['slug' => 'pompe-chaleur-piscine', 'nom' => 'Pompe à Chaleur', 'emoji' => "🌡️", 'desc' => 'Chauffage de l\'eau économique'],
+    ['slug' => 'volet-roulant-piscine', 'nom' => 'Volet Roulant', 'emoji' => "🛡️", 'desc' => 'Sécurité et maintien de la température'],
+    ['slug' => 'bache-piscine', 'nom' => 'Bâche de Piscine', 'emoji' => "🎪", 'desc' => 'Couverture d\'été ou d\'hiver'],
+    ['slug' => 'abri-piscine', 'nom' => 'Abri de Piscine', 'emoji' => "🛖", 'desc' => 'Protection et chauffage naturel'],
+    ['slug' => 'domotique-piscine', 'nom' => 'Domotique Piscine', 'emoji' => "📱", 'desc' => 'Contrôle à distance (pompe, éclairage)'],
+    ['slug' => 'liner-piscine', 'nom' => 'Pose de Liner', 'emoji' => "📏", 'desc' => 'Revêtement étanche PVC'],
+    ['slug' => 'carrelage-piscine', 'nom' => 'Carrelage Piscine', 'emoji' => "🧊", 'desc' => 'Revêtement durable et luxueux'],
+    ['slug' => 'enduit-piscine', 'nom' => 'Enduit Piscine', 'emoji' => "🖌️", 'desc' => 'Finition pour piscine béton'],
+    ['slug' => 'nettoyage-piscine', 'nom' => 'Nettoyage Piscine', 'emoji' => "🤖", 'desc' => 'Robots et nettoyage manuel'],
+    ['slug' => 'hivernage-piscine', 'nom' => 'Hivernage', 'emoji' => "❄️", 'desc' => 'Mise au repos du bassin'],
+    ['slug' => 'remise-en-route-piscine', 'nom' => 'Remise en Route', 'emoji' => "☀️", 'desc' => 'Préparation pour la saison estivale'],
+    ['slug' => 'recherche-fuite-piscine', 'nom' => 'Recherche de Fuite', 'emoji' => "🔍", 'desc' => 'Détection précise sans casse'],
+    ['slug' => 'traitement-eau', 'nom' => 'Traitement de l\'Eau', 'emoji' => "🧪", 'desc' => 'Chlore, brome, sel, UV'],
+    ['slug' => 'piscine-naturelle', 'nom' => 'Piscine Naturelle', 'emoji' => "🌿", 'desc' => 'Filtration par les plantes'],
+    ['slug' => 'spa-jacuzzi', 'nom' => 'Spa & Jacuzzi', 'emoji' => "🛁", 'desc' => 'Bassin à remous relaxant'],
+    ['slug' => 'couloir-nage', 'nom' => 'Couloir de Nage', 'emoji' => "🏊‍♂️", 'desc' => 'Bassin long et étroit pour sportifs'],
+    ['slug' => 'piscine-kit', 'nom' => 'Piscine en Kit', 'emoji' => "📦", 'desc' => 'Montage par le client ou assisté'],
+    ['slug' => 'plage-piscine', 'nom' => 'Plage de Piscine', 'emoji' => "🌴", 'desc' => 'Aménagement autour du bassin'],
+    ['slug' => 'renovation-piscine', 'nom' => 'Rénovation Complète', 'emoji' => "✨", 'desc' => 'Refonte esthétique et technique'],
 ]);
 
 define('SERVICES', [
     [
         'titre' => "Construction & Installation",
-        'icon' => "ðŸš§",
-        'desc' => "Conception sur mesure ou installation de piscines coque, bÃ©ton, ou bois adaptÃ©es Ã  votre terrain et votre budget.",
-        'points' => ["Ã‰tude de faisabilitÃ© et terrassement", "Accompagnement dÃ©marches (PLU)", "Garantie dÃ©cennale constructeur"]
+        'icon' => "🚧",
+        'desc' => "Conception sur mesure ou installation de piscines coque, béton, ou bois adaptées à votre terrain et votre budget.",
+        'points' => ["Étude de faisabilité et terrassement", "Accompagnement démarches (PLU)", "Garantie décennale constructeur"]
     ],
     [
-        'titre' => "Entretien & Ã‰quipements",
-        'icon' => "âš™ï¸",
-        'desc' => "Maintien de la qualitÃ© de votre eau et installation d'accessoires (pompes Ã  chaleur, volets, abris).",
+        'titre' => "Entretien & Équipements",
+        'icon' => "⚙️",
+        'desc' => "Maintien de la qualité de votre eau et installation d'accessoires (pompes à chaleur, volets, abris).",
         'points' => ["Contrats d'entretien annuel", "Hivernage et remise en route", "Installation de chauffage"]
     ],
     [
-        'titre' => "RÃ©novation & Ã‰tanchÃ©itÃ©",
-        'icon' => "âœ¨",
-        'desc' => "Modernisation de bassins vieillissants : changement de liner, dÃ©tection de fuites et rÃ©fection des plages.",
-        'points' => ["Remplacement de liner ou carrelage", "Modification des escaliers/plages", "Mise aux normes de sÃ©curitÃ©"]
+        'titre' => "Rénovation & Étanchéité",
+        'icon' => "✨",
+        'desc' => "Modernisation de bassins vieillissants : changement de liner, détection de fuites et réfection des plages.",
+        'points' => ["Remplacement de liner ou carrelage", "Modification des escaliers/plages", "Mise aux normes de sécurité"]
     ],
 ]);
 
 define('FAQ_ACCUEIL', [
     [
         'question' => "Faut-il un permis de construire pour une piscine ?",
-        'reponse' => "Une dÃ©claration prÃ©alable de travaux suffit pour une piscine dont le bassin fait entre 10 et 100 mÂ² (sans abri ou avec un abri infÃ©rieur Ã  1,80m de haut). Au-delÃ  de 100 mÂ², un permis de construire est exigÃ©. Les piscines hors sol installÃ©es moins de 3 mois dans l'annÃ©e (et de moins de 10 mÂ²) sont dispensÃ©es d'autorisation, sauf secteurs protÃ©gÃ©s."
+        'reponse' => "Une déclaration préalable de travaux suffit pour une piscine dont le bassin fait entre 10 et 100 m² (sans abri ou avec un abri inférieur à 1,80m de haut). Au-delà de 100 m², un permis de construire est exigé. Les piscines hors sol installées moins de 3 mois dans l'année (et de moins de 10 m²) sont dispensées d'autorisation, sauf secteurs protégés."
     ],
     [
-        'question' => "Quelle est la diffÃ©rence entre une piscine coque et une piscine bÃ©ton ?",
-        'reponse' => "La piscine coque (en polyester) est fabriquÃ©e en usine et livrÃ©e d'un bloc. Son installation est trÃ¨s rapide (quelques jours) et son fond est trÃ¨s lisse. La piscine en bÃ©ton est coulÃ©e ou maÃ§onnÃ©e sur place : sa construction est plus longue mais elle permet le vrai 'sur-mesure' (formes, tailles, profondeur) et offre une soliditÃ© incomparable sur la durÃ©e."
+        'question' => "Quelle est la différence entre une piscine coque et une piscine béton ?",
+        'reponse' => "La piscine coque (en polyester) est fabriquée en usine et livrée d'un bloc. Son installation est très rapide (quelques jours) et son fond est très lisse. La piscine en béton est coulée ou maçonnée sur place : sa construction est plus longue mais elle permet le vrai 'sur-mesure' (formes, tailles, profondeur) et offre une solidité incomparable sur la durée."
     ],
     [
-        'question' => "Quelles sont les obligations lÃ©gales de sÃ©curitÃ© ?",
-        'reponse' => "En France, toute piscine enterrÃ©e non close privative Ã  usage individuel doit Ãªtre Ã©quipÃ©e au moins d'un des quatre dispositifs de sÃ©curitÃ© homologuÃ©s : une alarme (immersion ou pÃ©rimÃ©trique), une barriÃ¨re de protection, une couverture de sÃ©curitÃ© (bÃ¢che Ã  barre, volet) ou un abri de piscine."
+        'question' => "Quelles sont les obligations légales de sécurité ?",
+        'reponse' => "En France, toute piscine enterrée non close privative à usage individuel doit être équipée au moins d'un des quatre dispositifs de sécurité homologués : une alarme (immersion ou périmétrique), une barrière de protection, une couverture de sécurité (bâche à barre, volet) ou un abri de piscine."
     ],
     [
-        'question' => "Combien de temps faut-il pour crÃ©er une piscine enterrÃ©e ?",
-        'reponse' => "Pour une piscine coque, l'installation prend en gÃ©nÃ©ral 1 Ã  2 semaines (terrassement compris). Pour une piscine bÃ©ton traditionnelle, comptez entre 4 et 8 semaines de travaux en fonction des finitions (liner, carrelage) et de la mÃ©tÃ©o."
+        'question' => "Combien de temps faut-il pour créer une piscine enterrée ?",
+        'reponse' => "Pour une piscine coque, l'installation prend en général 1 à 2 semaines (terrassement compris). Pour une piscine béton traditionnelle, comptez entre 4 et 8 semaines de travaux en fonction des finitions (liner, carrelage) et de la météo."
     ],
     [
-        'question' => "Quel est le budget moyen pour une piscine creusÃ©e ?",
-        'reponse' => "Le prix varie Ã©normÃ©ment selon le type : Ã  partir de 15 000 â‚¬ pour une piscine coque standard prÃªte Ã  plonger, et souvent entre 25 000 â‚¬ et 40 000 â‚¬ pour une piscine maÃ§onnÃ©e en bÃ©ton. N'oubliez pas d'inclure le coÃ»t de la filtration, des dispositifs de sÃ©curitÃ© et des terrasses."
+        'question' => "Quel est le budget moyen pour une piscine creusée ?",
+        'reponse' => "Le prix varie énormément selon le type : à partir de 15 000 € pour une piscine coque standard prête à plonger, et souvent entre 25 000 € et 40 000 € pour une piscine maçonnée en béton. N'oubliez pas d'inclure le coût de la filtration, des dispositifs de sécurité et des terrasses."
     ]
 ]);
 
@@ -167,9 +167,9 @@ define('TOP_VILLES', [
 ]);
 
 define('AVANTAGES', [
-    ['titre' => 'RÃ©seau National', 'desc' => 'Des milliers de professionnels rÃ©fÃ©rencÃ©s dans toute la France.', 'icon' => "ðŸ—ºï¸"],
-    ['titre' => 'Partenaires ExpÃ©rimentÃ©s', 'desc' => 'Trouvez le bon interlocuteur pour la rÃ©ussite de votre projet', 'icon' => "âœ…"],
-    ['titre' => 'Mise en Relation Rapide', 'desc' => 'Obtenez gratuitement des devis adaptÃ©s Ã  vos besoins.', 'icon' => "ðŸ’°"],
+    ['titre' => 'Réseau National', 'desc' => 'Des milliers de professionnels référencés dans toute la France.', 'icon' => "🗺️"],
+    ['titre' => 'Partenaires Expérimentés', 'desc' => 'Trouvez le bon interlocuteur pour la réussite de votre projet', 'icon' => "✅"],
+    ['titre' => 'Mise en Relation Rapide', 'desc' => 'Obtenez gratuitement des devis adaptés à vos besoins.', 'icon' => "💰"],
 ]);
 
 define('HERO_IMAGE', 'https://images.unsplash.com/photo-1572331165267-854da2b10ccc?w=1920&q=80&auto=format&fit=crop');
@@ -207,4 +207,3 @@ function getVudCatForModele($modele = null)
     }
     return VUD_CATEGORIE_ID;
 }
-
