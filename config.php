@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * ============================================
  * ANNUAIRE-PISCINISTE.PRO - CONFIGURATION
@@ -8,7 +8,7 @@
 define('SITE_NAME', 'trouver-devis-piscine.fr');
 define('SITE_DOMAIN', 'trouver-devis-piscine.fr');
 define('SITE_URL', 'https://trouver-devis-piscine.fr');
-define('SITE_EMAIL', 'contact@trouver-devis-piscine.fr');
+define('SITE_EMAIL', 'admin@miraubolant.com');
 define('SITE_TAGLINE', "Pisciniste et Construction Partout en France");
 define('SITE_DESCRIPTION', "Trouvez un pisciniste professionnel pour la construction ou la rénovation de votre piscine.");
 
